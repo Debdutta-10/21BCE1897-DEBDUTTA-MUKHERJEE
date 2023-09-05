@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 10px;
+}
+body {
+    background-color: #F0F8FF;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    background-color: #6CB4EE;
+    text-align: center;
+}
+
+.sc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+label {
+    flex: 0.5;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input,
+textarea,
+select {
+    flex: 2;
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 150px;
+}
+
+button {
+    width: 50%;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #17B169;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin: 0 5px; /* Reduce the margin around radio buttons */
+    width: auto; /* Allow the radio buttons to adjust their size */
+}
+.sc2 label{
+    margin-right: 74px;
+}

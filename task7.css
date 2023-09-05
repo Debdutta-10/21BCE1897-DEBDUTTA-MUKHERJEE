@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 20px; 
+}
+
+/* Navbar-1 */
+
+.nav1{
+    margin-top: 20px;
+    width: 300px;
+    border: 1px solid black;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+}
+ul li a:hover{
+    color: white;
+}
+.vn{
+    background-color:  lightblue;
+}
+.vn:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+/* Navbar-2 */
+.mc2 {
+    margin-left: 20px;
+}
+
+.nav2 {
+    margin-top: 20px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.nav2 ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+    display: flex;
+}
+
+.home2{
+    background-color: rgb(116, 113, 113);
+}
+.home2 a{
+    color: white;
+}
+.home2 a:hover{
+    color: black;
+}
+.vn2{
+    background-color:rgb(197, 192, 192);
+}

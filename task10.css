@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+body{
+    background-color: yellow;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
+.main-container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+.main-container2{
+    margin-top:5%;
+    color: purple;
+}
+nav{
+    margin-top: 7%;
+    width: 30%;
+}
+nav div {
+    background-color: white;
+    position: relative; /* Add position relative to the parent div */
+    border: 1px solid black;
+    padding: 5px;
+    margin: 7px;
+}
+div a{
+    text-decoration: none;
+    color: purple;
+}
+
+nav span {
+    background-color: black;
+    display: block; /* Use block display to take the full width */
+    position: absolute; /* Position the span absolutely within the parent div */
+    top: 0;
+    right: 0; /* Place the span at the top right corner of the parent div */
+    height: 100%; /* Make the span's height equal to the parent's height */
+    width: 20px; /* Adjust the width as needed */
+}

@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+table {
+    background-color: aquamarine;
+    width: 50%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px; /* Add margin to create space between table and container */
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    width: 25%;
+}
+
+.mfig {
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(106, 158, 28);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fig1{
+    border-radius: 5px;
+}
+.fig2{
+    border-radius: 10px;
+}
+.fig3{
+    border-radius: 15px;
+}
+.fig4{
+    border-radius: 10px;
+}
+.fig5{
+    border-radius: 3px;
+}
+.fig6{
+    border-radius: 15px;
+}
+.fig7{
+    border-radius: 50%;
+}
+.fig8{
+    border-radius: 3px;
+}
+.fig9{
+    border-radius: 0px 15px 10px 25px;
+}
