@@ -26,6 +26,10 @@ nav div {
     padding: 5px;
     margin: 7px;
 }
+nav div:hover {
+    background-color: orange;
+    cursor: pointer;
+}
 div a{
     text-decoration: none;
     color: purple;
